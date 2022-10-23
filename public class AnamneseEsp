@@ -1,0 +1,87 @@
+package Entidades;
+
+public class AnamneseEsp {
+
+    public String getSistema_respiratorio() {
+        return sistema_respiratorio;
+    }
+
+    public void setSistema_respiratorio(String sistema_respiratorio) {
+        this.sistema_respiratorio = sistema_respiratorio;
+    }
+
+    public String getSistema_cardiovascular() {
+        return sistema_cardiovascular;
+    }
+
+    public void setSistema_cardiovascular(String sistema_cardiovascular) {
+        this.sistema_cardiovascular = sistema_cardiovascular;
+    }
+
+    public String getSistema_digestorio() {
+        return sistema_digestorio;
+    }
+
+    public void setSistema_digestorio(String sistema_digestorio) {
+        this.sistema_digestorio = sistema_digestorio;
+    }
+
+    public String getSistema_urinario() {
+        return sistema_urinario;
+    }
+
+    public void setSistema_urinario(String sistema_urinario) {
+        this.sistema_urinario = sistema_urinario;
+    }
+
+    public String getSistema_reprodutor() {
+        return sistema_reprodutor;
+    }
+
+    public void setSistema_reprodutor(String sistema_reprodutor) {
+        this.sistema_reprodutor = sistema_reprodutor;
+    }
+
+    public String getSistema_locomotor() {
+        return sistema_locomotor;
+    }
+
+    public void setSistema_locomotor(String sistema_locomotor) {
+        this.sistema_locomotor = sistema_locomotor;
+    }
+
+    public String getSistema_neurologico() {
+        return sistema_neurologico;
+    }
+
+    public void setSistema_neurologico(String sistema_neurologico) {
+        this.sistema_neurologico = sistema_neurologico;
+    }
+
+    public String getPele_anexos() {
+        return pele_anexos;
+    }
+
+    public void setPele_anexos(String pele_anexos) {
+        this.pele_anexos = pele_anexos;
+    }
+
+    public String getOlhos() {
+        return olhos;
+    }
+
+    public void setOlhos(String olhos) {
+        this.olhos = olhos;
+    }
+
+    String sistema_respiratorio;
+    String sistema_cardiovascular;
+    String sistema_digestorio;
+    String sistema_urinario;
+    String sistema_reprodutor;
+    String sistema_locomotor;
+    String sistema_neurologico;
+    String pele_anexos;
+    String olhos;
+
+}
