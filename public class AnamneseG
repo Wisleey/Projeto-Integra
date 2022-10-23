@@ -1,0 +1,59 @@
+package Entidades;
+
+public class AnamneseG {
+    public String getQueixaprincipal() {
+        return queixaprincipal;
+    }
+
+    public void setQueixaprincipal(String queixaprincipal) {
+        this.queixaprincipal = queixaprincipal;
+    }
+
+    public String getHistoricomedico() {
+        return historicomedico;
+    }
+
+    public void setHistoricomedico(String historicomedico) {
+        this.historicomedico = historicomedico;
+    }
+
+    public String getContactantes() {
+        return contactantes;
+    }
+
+    public void setContactantes(String contactantes) {
+        this.contactantes = contactantes;
+    }
+
+    public double getData_vacinacao() {
+        return data_vacinacao;
+    }
+
+    public void setData_vacinacao(double data_vacinacao) {
+        this.data_vacinacao = data_vacinacao;
+    }
+
+    public String getVermifugacao() {
+        return vermifugacao;
+    }
+
+    public void setVermifugacao(String vermifugacao) {
+        this.vermifugacao = vermifugacao;
+    }
+
+    public String getAnbiente_que_vive() {
+        return anbiente_que_vive;
+    }
+
+    public void setAnbiente_que_vive(String anbiente_que_vive) {
+        this.anbiente_que_vive = anbiente_que_vive;
+    }
+
+    String queixaprincipal;
+    String historicomedico;
+    String contactantes;
+    double data_vacinacao;
+    String vermifugacao;
+    String anbiente_que_vive;
+
+}
