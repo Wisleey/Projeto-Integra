@@ -1,0 +1,157 @@
+package Entidades;
+
+public class Exame_fisico {
+    public String getPostura() {
+        return postura;
+    }
+
+    public void setPostura(String postura) {
+        this.postura = postura;
+    }
+
+    public double getTr() {
+        return Tr;
+    }
+
+    public void setTr(double tr) {
+        Tr = tr;
+    }
+
+    public double getFr() {
+        return Fr;
+    }
+
+    public void setFr(double fr) {
+        Fr = fr;
+    }
+
+    public int getFc() {
+        return Fc;
+    }
+
+    public void setFc(int fc) {
+        Fc = fc;
+    }
+
+    public double getTpc() {
+        return Tpc;
+    }
+
+    public void setTpc(double tpc) {
+        Tpc = tpc;
+    }
+
+    public double getPulso() {
+        return pulso;
+    }
+
+    public void setPulso(double pulso) {
+        this.pulso = pulso;
+    }
+
+    public String getHidratacao() {
+        return hidratacao;
+    }
+
+    public void setHidratacao(String hidratacao) {
+        this.hidratacao = hidratacao;
+    }
+
+    public String getLinfonodos_submand() {
+        return linfonodos_submand;
+    }
+
+    public void setLinfonodos_submand(String linfonodos_submand) {
+        this.linfonodos_submand = linfonodos_submand;
+    }
+
+    public String getLinf_pre_escapulares() {
+        return linf_pre_escapulares;
+    }
+
+    public void setLinf_pre_escapulares(String linf_pre_escapulares) {
+        this.linf_pre_escapulares = linf_pre_escapulares;
+    }
+
+    public String getLinf_politeos() {
+        return linf_politeos;
+    }
+
+    public void setLinf_politeos(String linf_politeos) {
+        this.linf_politeos = linf_politeos;
+    }
+
+    public String getLinf_inguinais() {
+        return linf_inguinais;
+    }
+
+    public void setLinf_inguinais(String linf_inguinais) {
+        this.linf_inguinais = linf_inguinais;
+    }
+
+    public String getMucosa_ocular() {
+        return mucosa_ocular;
+    }
+
+    public void setMucosa_ocular(String mucosa_ocular) {
+        this.mucosa_ocular = mucosa_ocular;
+    }
+
+    public String getMucosa_oral() {
+        return mucosa_oral;
+    }
+
+    public void setMucosa_oral(String mucosa_oral) {
+        this.mucosa_oral = mucosa_oral;
+    }
+
+    public String getMucosa_peniana() {
+        return mucosa_peniana;
+    }
+
+    public void setMucosa_peniana(String mucosa_peniana) {
+        this.mucosa_peniana = mucosa_peniana;
+    }
+
+    public String getMucosa_anal() {
+        return mucosa_anal;
+    }
+
+    public void setMucosa_anal(String mucosa_anal) {
+        this.mucosa_anal = mucosa_anal;
+    }
+
+    public String getNivel_concoencia() {
+        return nivel_concoencia;
+    }
+
+    public void setNivel_concoencia(String nivel_concoencia) {
+        this.nivel_concoencia = nivel_concoencia;
+    }
+
+    public String getEscore_corporal() {
+        return escore_corporal;
+    }
+
+    public void setEscore_corporal(String escore_corporal) {
+        this.escore_corporal = escore_corporal;
+    }
+
+    String postura;
+    double Tr;
+    double Fr;
+    int Fc;
+    double Tpc;
+    double pulso;
+    String hidratacao;
+    String linfonodos_submand;
+    String linf_pre_escapulares;
+    String linf_politeos;
+    String linf_inguinais;
+    String mucosa_ocular;
+    String mucosa_oral;
+    String mucosa_peniana;
+    String mucosa_anal;
+    String nivel_concoencia;
+    String escore_corporal;
+}
