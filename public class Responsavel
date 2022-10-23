@@ -1,0 +1,64 @@
+{
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public String getEndereço() {
+        return endereço;
+    }
+
+    public void setEndereço(String endereço) {
+        this.endereço = endereço;
+    }
+
+    public String getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+
+    public String getTelefoneFixo() {
+        return TelefoneFixo;
+    }
+
+    public void setTelefoneFixo(String telefoneFixo) {
+        TelefoneFixo = telefoneFixo;
+    }
+
+    public String getCelular() {
+        return celular;
+    }
+
+    public void setCelular(String celular) {
+        this.celular = celular;
+    }
+
+    public String getUF() {
+        return UF;
+    }
+
+    public void setUF(String UF) {
+        this.UF = UF;
+    }
+
+    String nome;
+    String cpf;
+    String endereço;
+    String cidade;
+    String TelefoneFixo;
+    String celular;
+    String UF;
