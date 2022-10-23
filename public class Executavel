@@ -1,0 +1,69 @@
+{
+    public static void main(String[] args) {
+        Responsavel wisley = new Responsavel();
+        wisley.setNome("Wisley");
+        wisley.setCelular("123123213");
+        wisley.setCpf("98756554821");
+        wisley.setCidade("joão_pessoa");
+        wisley.setEndereço("av:sem nome 70");
+        wisley.setTelefoneFixo("34557070");
+        wisley.setUF("PB");
+
+
+        IdAnimal primeiro = new IdAnimal();
+        primeiro.setNome("duck");
+        primeiro.setEspecie("canina");
+        primeiro.setIdade(6);
+        primeiro.setPelagem("amarela");
+        primeiro.setPeso(15.2);
+        primeiro.setRaça("Labrador");
+        primeiro.setSexo("M");
+
+        AnamneseG historico = new AnamneseG();
+        historico.setContactantes("nulo");
+        historico.setData_vacinacao(22/10/22);
+        historico.setHistoricomedico("nulo");
+        historico.setVermifugacao("ok");
+        historico.setQueixaprincipal("vomito");
+        historico.setAnbiente_que_vive("ap");
+
+        AnamneseEsp Sintomas = new AnamneseEsp();
+        Sintomas.setOlhos("");
+        Sintomas.setPele_anexos("amarela");
+        Sintomas.setSistema_cardiovascular("ok");
+        Sintomas.setSistema_digestorio("ok");
+        Sintomas.setSistema_locomotor("ok");
+        Sintomas.setSistema_neurologico("ok");
+        Sintomas.setSistema_reprodutor("M");
+        Sintomas.setSistema_urinario("ok");
+        Sintomas.setSistema_respiratorio("ok");
+
+        Exame_fisico sintomas2 = new Exame_fisico();
+        sintomas2.setFc(12/8);
+        sintomas2.setFr(10/6);
+        sintomas2.setHidratacao("ok");
+        sintomas2.setEscore_corporal("ok");
+        sintomas2.setLinf_inguinais("ok");
+        sintomas2.setLinf_politeos("ok");
+        sintomas2.setLinfonodos_submand("ok");
+        sintomas2.setLinf_pre_escapulares("ok");
+        sintomas2.setMucosa_anal("ok");
+        sintomas2.setMucosa_ocular("ok");
+        sintomas2.setMucosa_oral("ok");
+        sintomas2.setMucosa_peniana("ok");
+        sintomas2.setNivel_concoencia("ok");
+        sintomas2.setPostura("ok");
+        sintomas2.setPulso(2/1);
+        sintomas2.setTr(10);
+        sintomas2.setTpc(3);
+
+
+
+
+
+
+
+
+    }
+
+}
